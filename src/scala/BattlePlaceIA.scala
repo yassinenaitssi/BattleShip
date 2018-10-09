@@ -9,7 +9,7 @@ import scala.util.Random
 object BattlePlaceIA {
 
     var myBoard = Util.createGrid(Nil , 0)
-//check valid ligne
+
     def checkValidLigneIA(): Int = {
                 val r = new scala.util.Random
                 var x = r.nextInt(11)
